@@ -130,7 +130,7 @@ export default function FeaturedCoursed() {
       </div>
       <div className="mt-10 mx-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-          {courses.map((course, index) => (
+          {courses.slice(0,3).map((course, index) => (
             <div key={index} className="card w-96 bg-base-100 shadow-xl">
               <div className="card-body items-center text-center shadow-lg shadow-cyan-300">
                 <h2 className="card-title">{course.title}</h2>
@@ -146,7 +146,7 @@ export default function FeaturedCoursed() {
         </div>
       </div>
       <div className="mt-20 text-center">
-        <Link href={"/courses"}>
+        <Link href={"/OurCourses"}>
           <button className="rounded-md  px-4 py-2 bg-white text-black hover:bg-gray-700 hover:text-white ">
             View All Courses
           </button>

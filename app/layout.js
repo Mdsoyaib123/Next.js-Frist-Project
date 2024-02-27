@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-        <div className="pt-4 fixed z-10 w-full  bg-black text-white">
+        <div className="pt-4 fixed z-30 w-full   bg-black text-white">
           <Navbar></Navbar>
         </div>
         {children}
