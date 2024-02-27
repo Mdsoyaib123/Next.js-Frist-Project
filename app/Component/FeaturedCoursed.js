@@ -1,4 +1,4 @@
-"use client";
+
 
 import Link from "next/link";
 
@@ -132,7 +132,7 @@ export default function FeaturedCoursed() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {courses.map((course, index) => (
             <div key={index} className="card w-96 bg-base-100 shadow-xl">
-              <div className="card-body items-center text-center">
+              <div className="card-body items-center text-center shadow-lg shadow-cyan-300">
                 <h2 className="card-title">{course.title}</h2>
                 <p>{course.description}</p>
                 <div className="card-actions mt-2">
