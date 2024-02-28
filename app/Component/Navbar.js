@@ -12,8 +12,11 @@ export default function Navbar() {
           {" "}
           <li className="cursor-pointer">Our Courses</li>
         </Link>
-        <Link href='/ContactUs'>
+        <Link href='/Contact'>
           <li className="cursor-pointer">Contact us</li>
+        </Link>
+        <Link href='/SignIn'>
+          <li className="cursor-pointer">Login </li>
         </Link>
       </ul>
     </div>
