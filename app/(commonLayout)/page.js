@@ -1,6 +1,7 @@
 "use client"
-import HeroSection from "./Component/HeroSection";
-import FeaturedCoursed from "./Component/FeaturedCoursed";
+
+import FeaturedCoursed from "../Component/FeaturedCoursed";
+import HeroSection from "../Component/HeroSection";
 
 export default function Home() {
   return (

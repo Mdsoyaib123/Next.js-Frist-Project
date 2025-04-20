@@ -7,16 +7,19 @@ export default function Navbar() {
         <Link href={'/'}>
           {" "}
           <li className="cursor-pointer">Home</li>
-        </Link>
+        </Link> 
         <Link href={'/OurCourses'}>
-          {" "}
+          {" "} 
           <li className="cursor-pointer">Our Courses</li>
         </Link>
-        <Link href='/Contact'>
+        <Link href='/Contact'> 
           <li className="cursor-pointer">Contact us</li>
         </Link>
         <Link href='/SignIn'>
           <li className="cursor-pointer">Login </li>
+        </Link>
+        <Link href='/dashboard'>
+          <li className="cursor-pointer">Dashboard </li>
         </Link>
       </ul>
     </div>
